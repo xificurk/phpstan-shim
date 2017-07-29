@@ -1,0 +1,13 @@
+{
+    "name": "xificurk/phpstan-shim",
+    "description": "PHPStan Phar distribution with bundled set of standard extensions",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~7.0"
+    },
+    "bin": [
+        "phpstan.phar"
+    ]
+}
