@@ -32,7 +32,6 @@ parameters:
 Contrary to [phpstan/phpstan-shim](https://github.com/phpstan/phpstan-shim) this distribution contains all the standard PHPStan extensions:
 
 * [Doctrine](https://github.com/phpstan/phpstan-doctrine)
-* [Guzzle](https://github.com/phpstan/phpstan-guzzle)
 * [Nette Framework](https://github.com/phpstan/phpstan-nette)
 * [Dibi - Database Abstraction Library](https://github.com/phpstan/phpstan-dibi)
 
