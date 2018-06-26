@@ -29,11 +29,12 @@ parameters:
 
 ## Extensions
 
-Contrary to [phpstan/phpstan-shim](https://github.com/phpstan/phpstan-shim) this distribution contains all the standard PHPStan extensions:
+Contrary to [phpstan/phpstan-shim](https://github.com/phpstan/phpstan-shim) this distribution contains several PHPStan extensions:
 
 * [Doctrine](https://github.com/phpstan/phpstan-doctrine)
 * [Nette Framework](https://github.com/phpstan/phpstan-nette)
 * [Dibi - Database Abstraction Library](https://github.com/phpstan/phpstan-dibi)
+* [PHPStan rules for checked & unchecked exceptions](https://github.com/pepakriz/phpstan-exception-rules)
 
 You can enable them, by including their config with a `phar://phpstan.phar/` prefix.
 
