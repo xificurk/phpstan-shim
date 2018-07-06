@@ -1,6 +1,6 @@
 # PHPStan shim
 
-The prefixed `.phar` distribution of [PHPStan](https://github.com/phpstan/phpstan) is built using [phpstan-compiler](https://github.com/fprochazka/phpstan-compiler)
+The prefixed `.phar` distribution of [PHPStan](https://github.com/phpstan/phpstan) is built using [phpstan-compiler](https://github.com/xificurk/phpstan-compiler)
 
 ## Usage
 
@@ -31,9 +31,10 @@ parameters:
 
 Contrary to [phpstan/phpstan-shim](https://github.com/phpstan/phpstan-shim) this distribution contains several PHPStan extensions:
 
+* [Dibi - Database Abstraction Library](https://github.com/phpstan/phpstan-dibi)
 * [Doctrine](https://github.com/phpstan/phpstan-doctrine)
 * [Nette Framework](https://github.com/phpstan/phpstan-nette)
-* [Dibi - Database Abstraction Library](https://github.com/phpstan/phpstan-dibi)
+* [PHPUnit](https://github.com/phpstan/phpstan-phpunit)
 * [PHPStan rules for checked & unchecked exceptions](https://github.com/pepakriz/phpstan-exception-rules)
 
 You can enable them, by including their config with a `phar://phpstan.phar/` prefix.
